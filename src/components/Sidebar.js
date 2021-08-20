@@ -7,7 +7,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from 'react-bootstrap/Accordion';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
-import Dimension from '../Dimension'
+import Dimension from './Dimension'
 //import SuspenseLoader from 'src/components/SuspenseLoader';
 
 function Sidebar ({

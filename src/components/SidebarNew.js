@@ -1,6 +1,6 @@
 import InfiniteLoader from 'react-window-infinite-loader'
 import { FixedSizeList as List } from 'react-window';
-import Dimension from '../Dimension';
+import Dimension from './Dimension';
 
 const SidebarNew = ({ 
   items,
@@ -39,13 +39,12 @@ const SidebarNew = ({
     }
 
     return (
-      <div 
+      <Dimension 
         key={index} 
         element={content}
         style={style}
-      >
-        {content}
-      </div>
+      />
+
     )
   
   }

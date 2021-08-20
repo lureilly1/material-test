@@ -10,7 +10,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
 import '../Sidebar.css'
 import '../scss/custom.scss'
-import Dimension from '../Dimension'
+
 //import SuspenseLoader from 'src/components/SuspenseLoader';
 
 import SidebarNew from './SidebarNew'
