@@ -2,7 +2,8 @@ import InfiniteLoader from 'react-window-infinite-loader'
 import { FixedSizeList as List } from 'react-window';
 import Dimension from './Dimension';
 
-const SidebarNew = ({ 
+
+const FilterItem = ({ 
   items,
   layout,
   pageHeight,
@@ -46,7 +47,6 @@ const SidebarNew = ({
       />
 
     )
-  
   }
   
   return (
@@ -77,4 +77,4 @@ const SidebarNew = ({
   )
 }
 
-export default SidebarNew
+export default FilterItem
